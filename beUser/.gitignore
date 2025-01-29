@@ -1,0 +1,17 @@
+# Bỏ qua file cấu hình quan trọng
+.env
+config.json
+database.sqlite
+secrets/
+credentials.json
+
+# Bỏ qua thư mục phụ thuộc
+node_modules/
+vendor/
+
+# Bỏ qua log và file tạm
+*.log
+*.pid
+*.sock
+tmp/
+cache/
